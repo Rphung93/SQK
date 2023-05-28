@@ -1,0 +1,19 @@
+CREATE TABLE cards (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, brand INTEGER, aisle INTEGER);
+
+INSERT INTO cards VALUES (1, "SW&SH", 5.99, "Pokemon", 3);
+INSERT INTO cards VALUES (2, "SW&SH:BLK", 5.99, "Pokemon", 3);
+INSERT INTO cards VALUES (3, "SW&SH:WHT", 5.99, "Pokemon", 3);
+INSERT INTO cards VALUES (4, "SW&SH:RED", 5.99, "Pokemon", 4);
+INSERT INTO cards VALUES (5, "SW&SH:BLUE", 5.99, "Pokemon", 4);
+INSERT INTO cards VALUES (6, "SW&SH:PURPLE", 6.99, "Pokemon", 7);
+INSERT INTO cards VALUES (7, "SW&SH:YELLOW", 6.99, "Pokemon", 5);
+INSERT INTO cards VALUES (8, "SW&SH:GREEN", 6.99, "Pokemon", 7);
+INSERT INTO cards VALUES (9, "SW&SH:SILVER", 7.99, "Pokemon", 2);
+INSERT INTO cards VALUES (10, "SW&SH:CYAN", 7.99, "Pokemon", 1);
+INSERT INTO cards VALUES (11, "SW&SH:GOLD", 8.99, "Pokemon", 1);
+INSERT INTO cards VALUES (12, "SW&SH:ORANGE", 8.99, "Pokemon", 3);
+INSERT INTO cards VALUES (13, "SW&SH:INDIGO", 9.99, "Pokemon", 2);
+INSERT INTO cards VALUES (14, "SW&SH:SUN", 9.99, "Pokemon", 6);
+INSERT INTO cards VALUES (15, "SW&SH:MOON", 9.99, "Pokemon", 6);
+
+SELECT * FROM cards ORDER BY aisle
